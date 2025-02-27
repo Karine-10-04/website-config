@@ -17,7 +17,7 @@ sections:
       title2:
         text: Madame
         animation:
-          = down-100-easeInBack
+          - down-100-easeInBack
           - fadein-100
         class: font-neutra text-primary text-4xl font-medium uppercase
       title3:
