@@ -37,8 +37,8 @@ sections:
         animation:
           - up-50
           - fadein
-      subTitle: nous
-        text: ''
+      subTitle: 
+        text: 'nous'
         class: font-neutra-thin text-black font-bold uppercase
         animation: 'up-100, fadein'
       content:
