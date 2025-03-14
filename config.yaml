@@ -26,6 +26,30 @@ sections:
           - down-50-easeInBack
           - fadein-100
         class: font-neutra text-primary text-4xl font-medium uppercase
+  - component: TemplateTitle
+    bind:
+      class: bg-white
+    params:
+      background:
+        url: images/AP-D0340-043-COFFIN-WILBERT.jpeg
+      title1:
+        text: A
+        animation:
+          - up-50-easeInBack
+          - fadein
+        class: font-neutra text-primary text-4xl font-medium uppercase
+      title2:
+        text: B
+        animation:
+          - down-100-easeInBack
+          - fadein-100
+        class: font-neutra text-primary text-4xl font-medium uppercase
+      title3:
+        text: C
+        animation:
+          - down-50-easeInBack
+          - fadein-100
+        class: font-neutra text-primary text-4xl font-medium uppercase
   - component: TemplateCardWithImages
     nav: Qui
     bind:
